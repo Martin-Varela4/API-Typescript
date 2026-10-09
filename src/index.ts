@@ -3,8 +3,8 @@ import express from "express";
 import dotenv from "dotenv";
 dotenv.config();
 
-import { AppDataSource } from "./database/data-source.js";
-import userRoutes from "./modules/user/user.routes.js";
+import { AppDataSource } from "../database/data-source.js";
+import userRoutes from "../modules/user/user.routes.js";
 
 const app = express();
 app.use(express.json());
